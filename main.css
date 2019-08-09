@@ -1,0 +1,272 @@
+body {
+  background: #f4f2ed;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+h5 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+u {
+  font-size: 0.85rem;
+}
+
+strong {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*=============KIFUTÓ TERMÉK===========*/
+
+.bord {
+  border-style: solid;
+  border-width: 5px;
+  border-color: yellow;
+}
+
+/*================LISTA=============*/
+ul {
+  margin-left: -1rem;
+  list-style: none;
+}
+
+.lista li::before {
+  content: "\2022";
+  color: deeppink;
+  font-size: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+/*===============ELSŐ FORM=============*/
+
+option {
+  color: hotpink;
+}
+
+/*===============MÁSODIK FORM============*/
+
+form {
+  margin-bottom: 1rem;
+}
+
+/*=================BELÉPEK GOMB==============*/
+.button {
+  width: 55%;
+  background: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: deeppink; 
+  color: deeppink;
+  font-size: 0.7rem;
+  letter-spacing: 0.08rem;
+  padding: 10px;
+  margin-bottom: 0.5rem;
+}
+
+.button:hover {
+  transform: scale(1.01);
+  transition: all 0.2s ease-in-out;
+  color: white;
+  background: deeppink;
+}
+
+
+
+/*==================TÁBLÁZAT===============*/
+
+.tablazat {
+  background: yellow;
+}
+
+.bold {
+  font-weight: 550;
+}
+
+/*========TÉRKÉP GOMB ÉS A TÖBBI===========*/
+
+.button-2 {
+  color: deeppink;
+  letter-spacing: 0.3rem;
+  font-size: 1.3rem;
+  background:;
+  height: px;
+}
+
+@media (max-width: 430px) {
+  .button-2 {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+}
+
+.button-2:hover {
+  transform: scale(1.04);
+  transition: all 0.2s ease-in-out;
+  color: deeppink;
+}
+
+.terkep {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/a/ac/Hungary_location_map.svg');
+  height: 100px;
+}
+
+.pen {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTniR4FwIS2m50C3H4NTf-fi_iT8KCSKAyXK8KFUV9xL94o379_fA');
+  height: 100px;
+}
+
+.teloszam {
+  font-size: 1.5rem;
+  color: deeppink
+}
+
+@media (min-width: 990px) {
+  .terkep {
+    margin-left: %;
+  }
+  
+  .ikonok {
+    margin-right: rem;
+  }
+}
+
+/*========FELIRATKOZÁS==============*/
+
+.level {
+  color: deeppink;
+}
+
+.alahuz {
+  color: deeppink;
+  text-decoration: underline;
+}
+
+.alahuz:hover {
+  text-decoration: none;
+}
+
+.gomb {
+  border: 1px solid deeppink;
+  border-radius: 6px;
+  padding: 3px;
+  font-weight: 500;
+}
+
+.gomb:hover {
+  color: white;
+  background: deeppink;
+  transform: scale(1.01);
+  transition: all 0.2s ease-in-out;
+}
+
+.feliratkozom {
+  
+  
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+@media (min-width: 768px) {
+  .feliratkozom p {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  .level {
+    margin-left: 3.7rem;
+  }
+}
+
+/*===============VÉGE============*/
+
+.telekom  {
+  color: deeppink; 
+}
+
+/*========DOBOZOK ÉS HOVER==============*/
+
+@media (min-width:992px) {
+.masodik {
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #888888
+ }
+}
+
+.elso {
+  box-shadow: 1px 1px 6px 1px grey;
+  background: white;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+.masodik:hover {
+  box-shadow: 3px 5px 6px 1px #888888;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/*=====================NAVBAR===========*/
+
+.nav {
+  background: blue !important;
+}
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0.2rem;
+  color:deeppink !important;
+  font-family: 'Merriweather', serif;
+}
+
+.keszulekek {
+  color: deeppink !important;
+  font-weight: 700;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.jaj {
+  color: deeppink;
+  border: 1px solid deeppink;
+  font-weight: 500;
+  letter-spacing: 0.03rem
+}
+
+.jaj:hover {
+  color: white;
+  background: deeppink;
+  transform: scale(1.01);
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-toggler {
+  border: 1px solid deeppink !important;
+  border-radius: 3px;
+}
